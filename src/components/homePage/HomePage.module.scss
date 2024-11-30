@@ -1,0 +1,22 @@
+@import '/styles/color.scss';
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  margin: 20px 0px;
+}
+
+.errorText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: $error-dark;
+  height: 500px;
+}
+
+.paginationBox {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0px;
+}

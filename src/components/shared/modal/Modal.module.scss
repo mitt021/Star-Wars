@@ -1,0 +1,22 @@
+@import '/styles/color.scss';
+
+.root {
+  > div:first-child {
+    background-color: $black;
+    opacity: 0.5 !important;
+  }
+  > div > div {
+    border-radius: 15px;
+    padding: 20px;
+  }
+  .modalHeader {
+    display: flex;
+    justify-content: space-between;
+    .closeIcon {
+      cursor: pointer;
+    }
+  }
+  .dialogContent {
+    padding: 0px;
+  }
+}
